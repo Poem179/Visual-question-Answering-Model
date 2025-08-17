@@ -1,0 +1,13 @@
+{
+  "experiment_date": "2025-08-10 07:17:54",
+  "model_performance": {
+    "Original Model": 54.99325236167341
+  },
+  "improvements": {
+    "multi_head_attention": -1.214574898785422,
+    "improved_fusion": 1.2820512820512846,
+    "fine_tune_deep": -2.4966261808367065,
+    "all_improvements": -2.6315789473684177
+  },
+  "best_model": "Original Model"
+}
