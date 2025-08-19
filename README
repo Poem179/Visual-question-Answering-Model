@@ -25,7 +25,7 @@ Tóm tắt khoá luận:
 tổng hợp kết quả:
 
 MODEL               ALIAS                       ACC(Test)        NOTE
-CNN+LSTM            VQA_NoAttention_training    0.5357
-CNN+LSTM+Attention  VQA_Attention               0.6073           possible overfit (unanswerable)
+CNN+LSTM            VQA_NoAttention_training    0.5801
+CNN+LSTM+Attention  VQA_Attention               0.6073           Adam, lr = 0,001​, Batch size 128 (val 17), e = 50​, Para = 16,492,202
 CLIP                ...                         ...              ...
-CLIP+Attention      CLIP+ATT/vqa_experiment     0.7854           wrong test size 
+CLIP+Attention      CLIP+ATT/vqa_experiment     0.6123           Freeze Clip's para​ = 151,277,313​, Vizwiz train's para​ = 2,028,777 
