@@ -20,3 +20,12 @@ Powerpoint.pptx:
 
 Tóm tắt khoá luận:
     https://1drv.ms/w/c/4663add6237ab3ba/EaUOKBSwChFPr7WijW4rXQ0BH11cA73SfBzqBXwDmCSFEg?e=fXCEoh
+
+
+tổng hợp kết quả:
+
+MODEL               ALIAS                       ACC(Test)        NOTE
+CNN+LSTM            VQA_NoAttention_training    0.5357
+CNN+LSTM+Attention  VQA_Attention               0.6073           possible overfit (unanswerable)
+CLIP                ...                         ...              ...
+CLIP+Attention      CLIP+ATT/vqa_experiment     0.7854           wrong test size 
