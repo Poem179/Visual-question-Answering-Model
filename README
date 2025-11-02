@@ -23,3 +23,4 @@ CNN+LSTM+Attention  VQA_Attention               0.6073           Adam, lr = 0,00
 CLIP                ...                         ...              ...
 CLIP+Attention      CLIP+ATT/vqa_experiment     0.6123           Total Clip's para​ = 151,277,313​, Vizwiz train's para​ = 2,028,777 
 CLIP+Attentiion+YOLO                            0.6173           https://www.kaggle.com/code/poemshijin/notebook66f34550b0
+CLIP+multihead	                                0.8645           Final model
