@@ -17,20 +17,22 @@ Tóm tắt khoá luận:
 
 tổng hợp kết quả:
 
-MODEL               ACC(Val/test)    Yes/No    Number    Others    Unanswerable
-CNN+LSTM            0.5417           0.3846    0.3542    0.3294    0.9829
-CNN+LSTM+Attention  0.6132           0.6735    0.3403    0.4399    0.9509      
-CLIP+Attention      0.5352           0.3949    0.3611    0.3092    1.0000
-CLIP+Attention2     0.5497           0.3726    0.3333    0.3551    0.9600
-CLIP+Attention3     0.5657           0.3778    0.3542    0.3762    0.9677
-CLIP+multihead_10   0.5661           0.7009    0.3611    0.3513    0.9716
-CLIP+multihead_1000	0.5689           0.6735    0.3681    0.3638    0.9596
+MODEL                   ACC(Val/test)    Yes/No    Number    Others    Unanswerable
+CNN+LSTM                0.5417           0.3846    0.3542    0.3294    0.9829
+CNN+LSTM+Attention      0.6132           0.6735    0.3403    0.4399    0.9509      
+CLIP+Attention          0.5352           0.3949    0.3611    0.3092    1.0000
+CLIP+Attention2         0.5497           0.3726    0.3333    0.3551    0.9600
+CLIP+Attention3         0.5657           0.3778    0.3542    0.3762    0.9677
+CLIP+multihead_10       0.5661           0.7009    0.3611    0.3513    0.9716
+CLIP+multihead_1000	    0.5689           0.6735    0.3681    0.3638    0.9596
+CLIP+multihead_1000v2	0.5680           0.6000    0.3611    0.3509    0.9923
 
-MODEL               BLEU-1    METEOR    ROUGE-L    CIDEr
-CNN+LSTM            0.6443    0.3211    0.6428     0.8085
-CNN+LSTM+Attention  0.6981    0.3751    0.7225     1.0330          
-CLIP+Attention      0.6336    0.3168    0.6336     0.7922
-CLIP+Attention2     0.6484    0.3287    0.6514     0.8444
-CLIP+Attention3     0.6657    0.3369    0.6686     0.8714
-CLIP+multihead_10   0.6743    0.3355    0.6716     0.8690
-CLIP+multihead_1000	0.6714    0.3347    0.6691     0.8872
+MODEL                   BLEU-1    METEOR    ROUGE-L    CIDEr
+CNN+LSTM                0.6443    0.3211    0.6428     0.8085
+CNN+LSTM+Attention      0.6981    0.3751    0.7225     1.0330          
+CLIP+Attention          0.6336    0.3168    0.6336     0.7922
+CLIP+Attention2         0.6484    0.3287    0.6514     0.8444
+CLIP+Attention3         0.6657    0.3369    0.6686     0.8714
+CLIP+multihead_10       0.6743    0.3355    0.6716     0.8690
+CLIP+multihead_1000	    0.6714    0.3347    0.6691     0.8872
+CLIP+multihead_1000v2	0.6709    0.3347    0.6696     0.8649
