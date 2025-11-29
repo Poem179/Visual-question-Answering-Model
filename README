@@ -26,6 +26,7 @@ CLIP+Attention3         0.5657           0.3778    0.3542    0.3762    0.9677
 CLIP+multihead_10       0.5661           0.7009    0.3611    0.3513    0.9716
 CLIP+multihead_1000	    0.5689           0.6735    0.3681    0.3638    0.9596
 CLIP+multihead_1000v2	0.5680           0.6000    0.3611    0.3509    0.9923
+CLIP+multihead_2000     0.5964           0.6718    0.3611    0.4042    0.9675
 
 MODEL                   BLEU-1    METEOR    ROUGE-L    CIDEr
 CNN+LSTM                0.6443    0.3211    0.6428     0.8085
@@ -36,3 +37,4 @@ CLIP+Attention3         0.6657    0.3369    0.6686     0.8714
 CLIP+multihead_10       0.6743    0.3355    0.6716     0.8690
 CLIP+multihead_1000	    0.6714    0.3347    0.6691     0.8872
 CLIP+multihead_1000v2	0.6709    0.3347    0.6696     0.8649
+CLIP+multihead_2000     0.6981    0.3526    0.7009     0.9455
