@@ -1,0 +1,20 @@
+# VQA Application Requirements
+
+# Core dependencies
+streamlit==1.28.0
+torch>=2.0.0
+torchvision>=0.15.0
+transformers>=4.30.0
+Pillow>=9.5.0
+
+# Additional utilities
+numpy>=1.24.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+opencv-python>=4.8.0
+
+# Gemini AI Integration
+google-generativeai>=0.3.0
+
+# Optional (for GPU support)
+# Install CUDA-enabled PyTorch from: https://pytorch.org/get-started/locally/
