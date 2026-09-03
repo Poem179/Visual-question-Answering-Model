@@ -151,3 +151,5 @@ Potential improvements include:
 ## Example notebook
 
 Example notebook.ipynb
+
+This notebook was created and ran on Kaggle environment (https://www.kaggle.com/)
