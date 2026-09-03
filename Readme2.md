@@ -2,10 +2,6 @@
 
 A multimodal Visual Question Answering (VQA) system designed to assist visually impaired users by answering questions about images and providing visual explanations.
 
-**Bachelor Thesis Project · 2024–2025**
-
-[GitHub Repository](https://github.com/Poem179/Visual-question-Answering-Model)
-
 ---
 
 ## Overview
@@ -16,9 +12,7 @@ Given an image and a natural-language question, the system predicts an answer ba
 
 For example:
 
-> **Image:** A person standing in a kitchen
-> **Question:** What is the person doing?
-> **Answer:** Cooking
+<img width="882" height="212" alt="Image" src="https://github.com/user-attachments/assets/54c7a21d-e905-4eb6-847b-b5a8315b90cc" />
 
 The project focuses on building an end-to-end VQA pipeline using **PyTorch** and the **VizWiz** dataset.
 
