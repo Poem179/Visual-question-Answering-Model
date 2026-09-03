@@ -12,7 +12,7 @@ Given an image and a natural-language question, the system predicts an answer ba
 
 For example:
 
-<img width="882" height="212" alt="Image" src="https://github.com/user-attachments/assets/54c7a21d-e905-4eb6-847b-b5a8315b90cc" />
+<img width="1107" height="261" alt="Image" src="https://github.com/user-attachments/assets/c084b5f8-99f4-4847-8de5-9ac3a3e9abdf" />
 
 The project focuses on building an end-to-end VQA pipeline using **PyTorch** and the **VizWiz** dataset.
 
