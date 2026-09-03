@@ -111,41 +111,6 @@ This approach is intended to make the system more useful in real-world assistive
 
 ---
 
-## Project Structure
-
-```text
-Visual-question-Answering-Model/
-│
-├── data/
-├── notebooks/
-├── models/
-├── src/
-├── results/
-├── requirements.txt
-└── README.md
-```
-
-> The exact structure may differ depending on the current repository organization.
-
----
-
-## Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/Poem179/Visual-question-Answering-Model.git
-cd Visual-question-Answering-Model
-```
-
-Install the required dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
 ## Usage
 
 The main workflow consists of:
@@ -183,12 +148,6 @@ Potential improvements include:
 * Building a complete real-time assistive application
 
 ---
+## Example notebook
 
-## Author
-
-**Nguyen Hoang Duy**
-
-Bachelor of Engineering in Information Technology
-Saigon University
-
-Machine Learning · Computer Vision · Multimodal Learning
+Example notebook.ipynb
