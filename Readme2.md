@@ -34,40 +34,7 @@ The project focuses on building an end-to-end VQA pipeline using **PyTorch** and
 
 The system consists of two main components:
 
-```text
-                ┌───────────────┐
-                │     Image     │
-                └───────┬───────┘
-                        │
-                        ▼
-                ┌───────────────┐
-                │ Image Encoder │
-                └───────┬───────┘
-                        │
-                        │
-┌───────────────┐       ▼
-│    Question   │ → ┌───────────────┐
-└───────────────┘   │ Multimodal   │
-                    │    Model     │
-                    └───────┬───────┘
-                            │
-                            ▼
-                    ┌───────────────┐
-                    │    Answer     │
-                    └───────────────┘
-
-                            │
-                   Low-confidence / failure
-                            │
-                            ▼
-                    ┌───────────────┐
-                    │ Gemini API    │
-                    │ Fallback      │
-                    └───────┬───────┘
-                            │
-                            ▼
-                    Photo Suggestions
-```
+<img width="699" height="319" alt="Image" src="https://github.com/user-attachments/assets/ad78338a-e1b0-4a21-b2df-976d987192f1" />
 
 ---
 
@@ -79,9 +46,7 @@ Attention heatmaps are generated to provide a visual indication of where the mod
 
 ### Example
 
-<!-- Add your attention heatmap image here -->
-
-![Attention Heatmap](path/to/attention_heatmap.png)
+<img width="614" height="516" alt="Image" src="https://github.com/user-attachments/assets/895b2ac3-a6c8-42a9-a491-4cc504635d31" />
 
 The visualization helps provide a basic interpretation of the model's decision-making process.
 
@@ -100,6 +65,8 @@ The dataset presents several challenges compared with conventional VQA datasets,
 
 These characteristics make VizWiz particularly relevant to assistive-vision applications.
 
+<img width="1075" height="311" alt="Image" src="https://github.com/user-attachments/assets/635fc15a-4e16-4853-9480-23c264c71fbf" />
+
 ---
 
 ## Results
@@ -112,9 +79,7 @@ The trained model achieved:
 
 Model performance was evaluated after training and hyperparameter tuning.
 
-<!-- Add training/validation curves here if available -->
-
-![Training Results](path/to/training_results.png)
+<img width="882" height="490" alt="Image" src="https://github.com/user-attachments/assets/dabb0944-189c-4500-9ddb-2619a7906a9c" />
 
 ---
 
